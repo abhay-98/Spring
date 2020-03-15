@@ -6,6 +6,6 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
         <context:annotation-config />
  <context:property-placeholder location="classpath:qwerty.properties" />
- <bean id="Emp" class="employee.Employee">
- </bean>
+ <bean id="salary" class="employee.Salaray"></bean>
+ <bean id="Emp" class="employee.Employee" />
  </beans>
