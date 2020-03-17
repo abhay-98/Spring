@@ -11,5 +11,6 @@ public class Main{
        College c= context.getBean("College", College.class);
        System.out.println(c);
        c.display();
+
         }
 }
